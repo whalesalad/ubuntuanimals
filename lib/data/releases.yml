@@ -1,0 +1,161 @@
+---
+warty:
+  :version: '4.10'
+  :name: Warty Warthog
+  :lts: false
+  :released: 10/20/04
+  :supported_until:
+  :kernel_version: 2.6.8
+  :photo: http://f.cl.ly/items/3H2c0W012w1L11172o05/Tarangire_Warzenschwein1.jpg
+hoary:
+  :version: '5.04'
+  :name: Hoary Hedgehog
+  :lts: false
+  :released: 4/8/05
+  :supported_until:
+  :kernel_version: 2.6.10
+  :photo: http://i.dailymail.co.uk/i/pix/2009/10/08/article-1218989-06BF47DC000005DC-147_634x359.jpg
+breezy:
+  :version: '5.10'
+  :name: Breezy Badger
+  :lts: false
+  :released: 10/12/05
+  :supported_until:
+  :kernel_version: 2.6.12
+  :photo: http://www.savethebadger.com/badgercubs.jpg
+dapper:
+  :version: '6.06'
+  :name: Dapper Drake
+  :lts: true
+  :released: 6/1/06
+  :supported_until:
+  :kernel_version: 2.6.15
+  :photo: http://scalingmountlu.files.wordpress.com/2013/03/maleduck.jpg
+edgy:
+  :version: '6.10'
+  :name: Edgy Eft
+  :lts: false
+  :released: 10/26/06
+  :supported_until:
+  :kernel_version: 2.6.17
+  :photo: http://upload.wikimedia.org/wikipedia/commons/4/4e/Eastern_Newt.jpg
+feisty:
+  :version: '7.04'
+  :name: Feisty Fawn
+  :lts: false
+  :released: 4/19/07
+  :supported_until:
+  :kernel_version: 2.6.20
+  :photo: http://upload.wikimedia.org/wikipedia/commons/c/cf/Fawn_in_Forest_edit.jpg
+gutsy:
+  :version: '7.10'
+  :name: Gutsy Gibbon
+  :lts: false
+  :released: 10/18/07
+  :supported_until:
+  :kernel_version: 2.6.22
+  :photo: http://upload.wikimedia.org/wikipedia/commons/4/4d/Agilegibbon.jpg
+hardy:
+  :version: '8.04'
+  :name: Hardy Heron
+  :lts: true
+  :released: 4/24/08
+  :supported_until:
+  :kernel_version: 2.6.24
+  :photo: http://f.cl.ly/items/0M3T123Y1K153a1l023E/greatblueheron.jpg
+intrepid:
+  :version: '8.10'
+  :name: Intrepid Ibex
+  :lts: false
+  :released: 10/30/08
+  :supported_until:
+  :kernel_version: 2.6.27
+  :photo: http://upload.wikimedia.org/wikipedia/commons/3/3c/Capra_ibex_ibex_–_04.jpg
+jaunty:
+  :version: '9.04'
+  :name: Jaunty Jackalope
+  :lts: false
+  :released: 4/23/09
+  :supported_until:
+  :kernel_version: 2.6.28
+  :photo: http://2.bp.blogspot.com/_JemHDK-D_3Y/TGtswu7mIvI/AAAAAAAAAMM/G77rjeWuEig/s1600/jackalope.jpg
+karmic:
+  :version: '9.10'
+  :name: Karmic Koala
+  :lts: false
+  :released: 10/29/09
+  :supported_until:
+  :kernel_version: 2.6.31
+  :photo: http://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/610px-Koala_climbing_tree.jpg
+lucid:
+  :version: '10.04'
+  :name: Lucid Lynx
+  :lts: true
+  :released: 4/29/10
+  :supported_until: 4/1/15
+  :kernel_version: 2.6.32
+  :photo: http://upload.wikimedia.org/wikipedia/commons/a/a0/Lynx_pardinus.png
+maverick:
+  :version: '10.10'
+  :name: Maverick Meerkat
+  :lts: false
+  :released: 10/10/10
+  :supported_until:
+  :kernel_version: 2.6.35
+  :photo: http://upload.wikimedia.org/wikipedia/commons/a/ad/Suricates%2C_Namibia-2.jpg
+natty:
+  :version: '11.04'
+  :name: Natty Narwhal
+  :lts: false
+  :released: 4/28/11
+  :supported_until:
+  :kernel_version: 2.6.38
+  :photo: http://f.cl.ly/items/0E2B3A1A2L0j1Y070j0F/narwhal-wallpaper-4.jpg
+oneiric:
+  :version: '11.10'
+  :name: Oneiric Ocelot
+  :lts: false
+  :released: 10/13/11
+  :supported_until:
+  :kernel_version: '3.0'
+  :photo: http://3.bp.blogspot.com/-OUN-wLlGisk/UBKbngSZ4RI/AAAAAAAANSE/6jbqJm48tgY/s1600/Ocelot2.jpg
+precise:
+  :version: '12.04'
+  :name: Precise Pangolin
+  :lts: true
+  :released: 4/26/12
+  :supported_until: 4/1/17
+  :kernel_version: '3.2'
+  :photo: http://f.cl.ly/items/0J1U371T1K2r2K360x1D/pangolin.jpg
+quantal:
+  :version: '12.10'
+  :name: Quantal Quetzal
+  :lts: false
+  :released: 10/18/12
+  :supported_until: 4/1/14
+  :kernel_version: '3.5'
+  :photo: http://1.bp.blogspot.com/-XNpxpZBXm0A/UiBl5RXbBuI/AAAAAAAAGbE/DxzJYfA6TLs/s1600/Quetzal-bird-pic-0.jpg
+raring:
+  :version: '13.04'
+  :name: Raring Ringtail
+  :lts: false
+  :released: 4/25/13
+  :supported_until: 1/27/14
+  :kernel_version: '3.8'
+  :photo: http://upload.wikimedia.org/wikipedia/commons/f/f5/Lemur_catta_001.jpg
+saucy:
+  :version: '13.10'
+  :name: Saucy Salamander
+  :lts: false
+  :released: 10/17/13
+  :supported_until: 7/1/14
+  :kernel_version: '3.11'
+  :photo: http://f.cl.ly/items/20243v2z2Y2j2A0u3v1c/The-Development-of-Ubuntu-13-10-Saucy-Salamander-Has-Officially-Started-2.jpg
+trusty:
+  :version: '14.04'
+  :name: Trusty Tahr
+  :lts: true
+  :released: 4/17/14
+  :supported_until: 4/1/19
+  :kernel_version: TBA
+  :photo: http://f.cl.ly/items/1R2M271A3N0s3r1H2u2v/Tahr-19-16x9-2000-logo.jpg

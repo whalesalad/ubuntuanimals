@@ -1,0 +1,54 @@
+#upper
+  %h1 UbuntuAnimals.com
+
+  %h2 It's a zoo out there.
+
+  %p Not sure which animal is running your server? You're not alone.
+
+  %p
+    %strong Tip:
+    Run the command <code>lsb_release -c</code> to see what's running on your box.
+
+  %br/
+
+- @releases.each do |release|
+  %section.release{ :style => "background-image: url(#{release.photo})" }
+    .inner
+      %span.release-version
+        = release.version
+
+      - if release.lts
+        %span.lts-release LTS
+
+      %h2.release-name
+        = release.name
+
+        %small
+          = release.short_name
+
+      .release-details
+        %p
+          %strong
+            Kernel
+          = release.kernel_version
+
+        %p
+          %strong
+            - if release.released?
+              Released
+            - else
+              Scheduled
+          #{release.released.strftime("%B %Y")}
+
+        %p
+          - if release.supported?
+            %strong
+              Supported Until
+            #{release.supported_until.strftime("%B %Y")}
+            %br/
+            %span.text-muted
+              #{release.supported_months_remaining} months remaining
+          - else
+            %strong
+              No longer supported
+
