@@ -5,6 +5,10 @@ class Animals < Sinatra::Base
 
   register Sinatra::AssetPack
 
+  configure :production do
+    require 'newrelic_rpm'
+  end
+
   assets {
     serve '/js',  from: 'static/coffee'
     serve '/css', from: 'static/sass'
