@@ -7,6 +7,10 @@ gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 gem 'sass'
 gem 'haml'
 
+group :production do
+  gem 'newrelic_rpm'
+end
+
 group :development do
   gem 'pry'
   gem 'subexec'

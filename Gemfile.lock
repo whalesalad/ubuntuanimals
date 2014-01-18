@@ -8,6 +8,7 @@ GEM
       tilt
     jsmin (1.0.1)
     method_source (0.8.2)
+    newrelic_rpm (3.7.1.182)
     pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -40,6 +41,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  newrelic_rpm
   pry
   sass
   sinatra
