@@ -9,4 +9,5 @@ gem 'haml'
 
 group :development do
   gem 'pry'
+  gem 'subexec'
 end

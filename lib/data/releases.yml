@@ -22,7 +22,7 @@ breezy:
   :released: 10/12/05
   :supported_until:
   :kernel_version: 2.6.12
-  :photo: http://www.savethebadger.com/badgercubs.jpg
+  :photo: http://www.globalresearch.ca/wp-content/uploads/2013/10/Badger.jpg
 dapper:
   :version: '6.06'
   :name: Dapper Drake
@@ -30,7 +30,7 @@ dapper:
   :released: 6/1/06
   :supported_until:
   :kernel_version: 2.6.15
-  :photo: http://scalingmountlu.files.wordpress.com/2013/03/maleduck.jpg
+  :photo: http://www.wvdnr.gov/2009news/SpringMK/Full_img/Mallard(male)-sjs-01.jpg
 edgy:
   :version: '6.10'
   :name: Edgy Eft

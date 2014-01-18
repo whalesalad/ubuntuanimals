@@ -29,6 +29,10 @@ class Release
     @attributes = attributes
   end
 
+  def to_s
+    "#{name}, #{version}".tap { |s| s << " LTS" if lts }
+  end
+
   def released
     Time.strptime(super, "%D")
   end
