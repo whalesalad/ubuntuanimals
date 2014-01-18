@@ -54,6 +54,10 @@ class Release
     (supported_until.year * 12 + supported_until.month) - (Time.now.year * 12 + Time.now.month)
   end
 
+  def photo
+    "/img/releases/#{short_name}.jpg"
+  end
+
   protected
 
   def method_missing(method_symbol, *arguments)
